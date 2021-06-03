@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #114E8A;
+  padding: 6%;
+  font-family: "Lato", sans-serif;
+}
+
+#container {
+  width: 70%;
+  height: 100%;
+  margin-right: 3%;
+}
+
+#bingotable {
+  width: auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#container, #ninja {
+  display: inline-block;
+}
+
+#ninja {
+  width: 27%;
+}
+
+#ninja button {
+  width: 35%;
+  margin-left: 32.5%;
+  margin-top: 7%;
+}
+
+th, td {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20%;
+  padding: 40px;
+  background-color: white;
+}
+
+th {
+  background-color: #3588B7;
+  color: white;
+  padding: 20px;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+table {
+  margin-bottom: 15px;
+}
+
+#popUpBox {
+  background-color: #FED8B1;
+  padding: 2%;
+  width: 23%;
+  border: 5px solid black;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  z-index: 50;
+  text-align: center;
+  display: none;
+}
+
+#popUpBox h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 0.2em;
+}
+
+#popUpBox button {
+  width: 40%;
+}
+
+button:hover {
+  cursor: pointer;
+}
